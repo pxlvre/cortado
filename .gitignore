@@ -1,0 +1,29 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Dependencies
+lib/
+
+.DS_Store
+*.icloud
+*.csv
+*report.md
+reports/*.*
+
+
+# zkSync
+zkout/
+
+# tmp files
+tmp/
